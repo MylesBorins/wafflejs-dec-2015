@@ -24,8 +24,8 @@ html
       background-image: url('images/maxmsp.png')
     }
     
-    .knoll {
-      background-image: url('images/knoll.jpg')
+    .ear {
+      background-image: url('images/ear.jpg')
     }
     
     .krang {
@@ -98,6 +98,9 @@ html
     .trippy {
       background-image: url('images/mJ7cXhA.gif')
     }
+    .eyebeeemm {
+      background-image: url('images/ibm.jpg')
+    }
 
   body
 
@@ -118,17 +121,17 @@ html
         h1 My Name is Myles
         img.headroom(src='images/me.jpg' alt='itsa me!' width='200px')
       
-      section
-        h3 I currently work at a small disruptive startup called IBM
+      section(data-bespoke-backdrop='eyebeeemm')
+        h3.up I currently work at a small disruptive startup called IBM
         h4 contributing to node.js
         
-        img.headroom(src='images/ibm.jpg' alt='Eye Bee M by Paul Rand')
+        //- img.headroom(src='images/ibm.jpg' alt='Eye Bee M by Paul Rand')
         
-        h5 The opinions expressed in this talk are soley my own
+        h5.lotsaspace The opinions expressed in this talk are soley my own
 
-      section
-        h3 Let's talk about the human ear
-        img(src='images/ear.jpg' alt='a huan ear' width='500px')
+      section(data-bespoke-backdrop='ear')
+        h1 Let's talk about the human ear
+        //- img(src='images/ear.jpg' alt='a huan ear' width='500px')
 
       section
         h3 Exponential response!
